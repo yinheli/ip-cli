@@ -37,4 +37,4 @@ $(PLATFORMS):
 
 .PHONY: clean
 clean:
-	@rm -rf ./$(TARGET)
+	@rm -rf ./dist
