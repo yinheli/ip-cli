@@ -3,13 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/ipipdotnet/datx-go"
+	"github.com/olekukonko/tablewriter"
+	"os"
+	"path"
+	"regexp"
 	"runtime"
 	"strings"
-	"os"
-	"regexp"
-	"github.com/ipipdotnet/datx-go"
-	"path"
-	"github.com/olekukonko/tablewriter"
 )
 
 var (
@@ -18,7 +18,7 @@ var (
 	V = flag.Bool("version", false, "show version")
 	H = flag.Bool("help", false, "show this help")
 
-	city *datx.City
+	city   *datx.City
 	result [][]string
 )
 

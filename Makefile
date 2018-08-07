@@ -15,7 +15,7 @@ all: clean $(PLATFORMS)
 .PHONY: fmt
 fmt:
 	# gofmt code
-	@gofmt -s -l $(FMT_ARG) $(SRC_DIR) *.go
+	@gofmt -s -l -w $(SRC_DIR) *.go
 	@go tool vet $(SRC_DIR)
 	@go tool vet *.go
 
