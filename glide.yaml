@@ -1,0 +1,6 @@
+package: github.com/yinheli/ip-cli
+import:
+- package: github.com/ipipdotnet/datx-go
+- package: github.com/olekukonko/tablewriter
+- package: github.com/mattn/go-runewidth
+  version: v0.0.2

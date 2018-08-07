@@ -1,0 +1,10 @@
+hash: b99c1717b5f7a1534e00d89da094d0b95b6a37aae3bbaee07d0dc14d11fb8b75
+updated: 2018-08-07T11:19:48.760308+08:00
+imports:
+- name: github.com/ipipdotnet/datx-go
+  version: 23723748dcf254187d898a047a0f8908a1768c3a
+- name: github.com/mattn/go-runewidth
+  version: 9e777a8366cce605130a531d2cd6363d07ad7317
+- name: github.com/olekukonko/tablewriter
+  version: d4647c9c7a84d847478d890b816b7d8b62b0b279
+testImports: []
