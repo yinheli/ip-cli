@@ -24,6 +24,7 @@ $(CMD):
 .PHONY: pack
 pack: $(CMD)
 	@cp 17monipdb.datx $(TARGET)
+	@tar -czf $(TARGET).tar.gz -C $(TARGET) .
 	@echo "done"
 
 .PHONY: clean
